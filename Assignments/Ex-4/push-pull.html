@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>rearrange-columns</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Reference :
+https://scotch.io/tutorials/reorder-css-columns-using-bootstrap
+-->
+
+<style type="text/css">
+  body   { padding-top:50px; }
+.row   { margin-bottom:20px; }
+	.
+	
+.col-md-push-6 {
+left: 50%;
+background-color: purple;
+color: white;
+height: 40px;
+}
+ 
+.col-md-pull-6 {
+right: 50%;
+background-color: green;
+color: white;
+height: 40px;
+}
+</style>
+</head>
+<body>  
+  
+
+<div class="container text-center">
+  
+  <p>2 is pushed above 1 and 3 on small screens</p>
+  <div class="row">
+  <div class="well well-lg clearfix">
+    
+    <div class="col-xs-12 col-md-4 col-md-push-4">
+      <div class="alert alert-warning">
+        2
+      </div>
+    </div>
+    
+    <div class="col-xs-6 col-md-4 col-md-pull-4">
+      <div class="alert alert-info">
+        1
+      </div>
+    </div>    
+    
+    <div class="col-xs-6 col-md-4">
+      <div class="alert alert-danger">
+        3
+      </div>
+    </div>
+    
+  </div>
+  </div>
+  
+  <p>2 is pushed below 1 and 3 on small screens</p>
+  <div class="row">
+  <div class="well well-lg clearfix">
+    
+    <div class="col-xs-6 col-md-4">
+      <div class="alert alert-info">
+        1
+      </div>
+    </div>    
+    
+    <div class="col-xs-6 col-md-4 col-md-push-4">
+      <div class="alert alert-danger">
+        3
+      </div>
+    </div>
+    
+    <div class="col-xs-12 col-md-4 col-md-pull-4">
+      <div class="alert alert-warning">
+        2
+      </div>
+    </div>
+    
+  </div>
+  </div>
+  
+  <p>1 moves to the right as a sidebar on large screens</p>
+  <div class="row">
+  <div class="well well-lg clearfix">
+    <div class="col-sm-4 col-md-3 col-md-push-9">
+      <div class="alert alert-danger">
+        1
+      </div>
+    </div>
+    <div class="col-sm-8 col-md-9 col-md-pull-3">
+      <div class="alert alert-info">
+        2
+      </div>
+    </div>
+  </div>
+ </div>
+</body>
+</html>
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hide Show</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Reference : 
+https://scotch.io/tutorials/understanding-the-bootstrap-3-grid-system
+-->
+
+<style type="text/css">
+    p{
+        padding: 20px;
+        background: aqua;
+        border-radius: 5px;
+		color: #fff;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
+    }
+    .bs-example{
+    	margin: 20px;
+    }
+	    .red {
+        background: red;
+    }
+	 .orange {
+        background: orange;
+    }
+	 .blue {
+        background: blue;
+    }
+	 .brown {
+        background: brown;
+    }
+	 .green {
+        background: green;
+    }
+	 .purple {
+        background: purple;
+    }
+	 .violet {
+        background: violet;
+    }
+
+</style>
+</head>
+<body>
+<div class="bs-example">
+    <p class="visible-xs">This paragraph is visible only on <strong>Extra Small Devices</strong> that has screen width less than <code>768px</code>.</p>
+  <p class="visible-sm red">This paragraph is visible only on <strong>Small Devices</strong> that has screen width greater than equal to <code>768px</code> but less than <code>992px</code>.</p>
+  <p class="visible-md orange">This paragraph is visible only on <strong>Medium Devices</strong> that has screen width greater than or equal to <code>992px</code> but less than <code>1200px</code>.</p>
+  <p class="visible-lg brown">This paragraph is visible only on <strong>Large Devices</strong> that has screen width greater than or equal to <code>1200px</code>.</p>
+     
+  <p class="hidden-xs blue">This paragraph is hidden only on <strong>Extra Small Devices</strong> that has screen width less than <code>768px</code>.</p>
+  <p class="hidden-sm green">This paragraph is hidden only on <strong>Small Devices</strong> that has screen width greater than equal to <code>768px</code> but less than <code>992px</code>.</p>
+    <p class="hidden-md purple">This paragraph is hidden only on <strong>Medium Devices</strong> that has screen width greater than or equal to <code>992px</code> but less than <code>1200px</code>.</p>
+  <p class="hidden-lg violet">This paragraph is hidden only on <strong>Large Devices</strong> that has screen width greater than or equal to <code>1200px</code>.</p>
+</div>
+</body>
+</html>                                		

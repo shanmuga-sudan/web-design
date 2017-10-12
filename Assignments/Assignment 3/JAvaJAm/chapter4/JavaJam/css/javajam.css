@@ -1,0 +1,69 @@
+body {
+    background-color: #f5f5dc;
+    color: #2e0000;
+    font-family: Verdana, Arial, sans-serif;*/
+    /*background-image: url("/assignments/chapter4/JavaJam/images/background.gif");*/
+    /*background-repeat: repeat-x repeat-y;*/
+}
+
+header {
+    background-color: #d2b48c;
+    color: #000000;
+    /*text-align: center;*/
+}
+
+nav {
+    font-weight: bold;
+	text-decoration: none;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+h1 {
+	font-family: Georgia; Times New Roman, sans-serif;
+}
+
+h2 {
+	font-family: Georgia; Times New Roman, sans-serif;
+    background-color: #ccaa66;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-bottom: 5px
+}
+
+
+
+footer {
+    background-color: #d2b48c;
+    color: #000000;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffcc;
+    min-width: 700px;
+    max-width: 1024p;
+    box-shadow: 5px 5px 5px;
+}
+
+main {
+    padding: 25px;
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+img {
+    border-style: none;
+}
