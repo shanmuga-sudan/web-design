@@ -15,7 +15,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.GrantedAuthorityImpl;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -174,7 +174,7 @@ public class User implements UserDetails {
 	public Collection<GrantedAuthority> getAuthorities() {
 		// TODO Auto-generated method stub
 		Collection<GrantedAuthority> grantedAuthority = new ArrayList<GrantedAuthority>();
-		grantedAuthority.add( new GrantedAuthorityImpl(this.getUserRole()));
+		grantedAuthority.add( new SimpleGrantedAuthority(this.getUserRole()));
 //		grantedAuthority.add(new GrantedAuthorityImpl("doctor"));
 //		grantedAuthority.add(new GrantedAuthorityImpl("admin"));
 //		grantedAuthority.add(new GrantedAuthorityImpl("receptionist"));
